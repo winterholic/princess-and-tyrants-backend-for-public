@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# IDE or editor settings
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# SQLite database (if used)
+*.sqlite3
+
+# FastAPI specific
+instance/  # Optional if you store instance-specific data
+*.db       # Ignore SQLite database files
+
+# Static files (if using FastAPI's StaticFiles)
+staticfiles/
+
+# Testing
+.coverage
+pytest_cache/
+htmlcov/
+
+# Docker (if Docker is used)
+docker-compose.override.yml
+*.env

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+aioredis
+pymysql
+sqlalchemy
+databases
+pyjwt
+python-dotenv
+pydantic-settings
+starlette
+aiomysql
+pycryptodome
+bcrypt
